@@ -1,18 +1,18 @@
-﻿<?xml version="1.0"?>
+<?xml version="1.0"?>
 <DTS:Executable xmlns:DTS="www.microsoft.com/SqlServer/Dts"
   DTS:refId="Package"
   DTS:CreationDate="10/24/2022 11:29:19 AM"
   DTS:CreationName="Microsoft.Package"
   DTS:CreatorComputerName="ASUS-VIVOBOOK-T"
   DTS:CreatorName="ASUS-VIVOBOOK-T\ASUS"
-  DTS:DTSID="{77C6C0A5-6264-4460-B457-FD503C2A7C04}"
+  DTS:DTSID="{202C8498-0CB3-4D2A-B2A4-263C4FC3CF54}"
   DTS:ExecutableType="Microsoft.Package"
   DTS:LastModifiedProductVersion="16.0.845.0"
   DTS:LocaleID="1033"
-  DTS:ObjectName="Source to Stage - Jade"
+  DTS:ObjectName="Stage_Jade"
   DTS:PackageType="5"
-  DTS:VersionBuild="42"
-  DTS:VersionGUID="{92CC2A1E-23B7-49D4-A80D-63B227EABC40}">
+  DTS:VersionBuild="44"
+  DTS:VersionGUID="{4592F045-058E-4385-A977-B98928495DFD}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>

@@ -1,18 +1,18 @@
-﻿<?xml version="1.0"?>
+<?xml version="1.0"?>
 <DTS:Executable xmlns:DTS="www.microsoft.com/SqlServer/Dts"
   DTS:refId="Package"
   DTS:CreationDate="11/3/2022 8:46:17 AM"
   DTS:CreationName="Microsoft.Package"
   DTS:CreatorComputerName="ASUS-VIVOBOOK-T"
   DTS:CreatorName="ASUS-VIVOBOOK-T\ASUS"
-  DTS:DTSID="{1D0BFB15-5AAF-4308-B256-E2559E3D51C0}"
+  DTS:DTSID="{F8E9C986-28C4-4A48-A0AA-5868A594E567}"
   DTS:ExecutableType="Microsoft.Package"
   DTS:LastModifiedProductVersion="16.0.845.0"
   DTS:LocaleID="1033"
-  DTS:ObjectName="Package1"
+  DTS:ObjectName="SourceToStage_Jupiter"
   DTS:PackageType="5"
-  DTS:VersionBuild="12"
-  DTS:VersionGUID="{3AFD09E8-996A-4D6C-ACCC-BF59BD9A051B}">
+  DTS:VersionBuild="13"
+  DTS:VersionGUID="{091797A1-EC45-4050-B2EA-725AFFFFD8FC}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -2188,13 +2188,21 @@
           Id="Package\Get LSET"
           TopLeft="506.782389653872,177.801852724478" />
         <NodeLayout
+          Size="179.2,41.6"
+          Id="Package\LoaiCuaHang_Jupiter"
+          TopLeft="250.648140572473,304.07037224649" />
+        <NodeLayout
+          Size="180.8,41.6"
+          Id="Package\LoaiSanPham_Jupiter"
+          TopLeft="478.333316710261,300.298149186844" />
+        <NodeLayout
           Size="140,41.6"
           Id="Package\Nuoc_Jupiter"
           TopLeft="699.444419035209,301.222224139284" />
         <NodeLayout
-          Size="179.2,41.6"
-          Id="Package\LoaiCuaHang_Jupiter"
-          TopLeft="250.648140572473,304.07037224649" />
+          Size="160.8,41.6"
+          Id="Package\SanPham_Jupiter"
+          TopLeft="881.481448838742,299.846297352594" />
         <NodeLayout
           Size="117.6,41.6"
           Id="Package\Set CET"
@@ -2267,6 +2275,74 @@
                     Point3="212.394434118495,76.2456136731866" />
                   <mssgle:LineSegment
                     End="212.394434118495,114.483334633376" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint 10]"
+          TopLeft="607.449056320538,219.401852724478">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="354.432392518203,80.4444446281159"
+              Start="0,0"
+              End="354.432392518203,72.9444446281159">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,17.9965278280005" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,17.9965278280005"
+                    Point2="0,21.9965278280005"
+                    Point3="4,21.9965278280005" />
+                  <mssgle:LineSegment
+                    End="350.432392518203,21.9965278280005" />
+                  <mssgle:CubicBezierSegment
+                    Point1="350.432392518203,21.9965278280005"
+                    Point2="354.432392518203,21.9965278280005"
+                    Point3="354.432392518203,25.9965278280005" />
+                  <mssgle:LineSegment
+                    End="354.432392518203,72.9444446281159" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint 11]"
+          TopLeft="961.881448838742,341.446297352594">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-352.038874147773,126.207409527272"
+              Start="0,0"
+              End="-352.038874147773,118.707409527272">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,87.6601281218641" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,87.6601281218641"
+                    Point2="0,91.6601281218641"
+                    Point3="-4,91.6601281218641" />
+                  <mssgle:LineSegment
+                    End="-348.038874147773,91.6601281218641" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-348.038874147773,91.6601281218641"
+                    Point2="-352.038874147773,91.6601281218641"
+                    Point3="-352.038874147773,95.6601281218641" />
+                  <mssgle:LineSegment
+                    End="-352.038874147773,118.707409527272" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -2455,10 +2531,6 @@
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-        <NodeLayout
-          Size="180.8,41.6"
-          Id="Package\LoaiSanPham_Jupiter"
-          TopLeft="478.333316710261,300.298149186844" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 8]"
           TopLeft="568.757853182066,219.401852724478">
@@ -2495,78 +2567,6 @@
                   Capacity="5">
                   <mssgle:LineSegment
                     End="0,118.255557693022" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="160.8,41.6"
-          Id="Package\SanPham_Jupiter"
-          TopLeft="881.481448838742,299.846297352594" />
-        <EdgeLayout
-          Id="Package.PrecedenceConstraints[Constraint 10]"
-          TopLeft="607.449056320538,219.401852724478">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="354.432392518203,80.4444446281159"
-              Start="0,0"
-              End="354.432392518203,72.9444446281159">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,17.9965278280005" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,17.9965278280005"
-                    Point2="0,21.9965278280005"
-                    Point3="4,21.9965278280005" />
-                  <mssgle:LineSegment
-                    End="350.432392518203,21.9965278280005" />
-                  <mssgle:CubicBezierSegment
-                    Point1="350.432392518203,21.9965278280005"
-                    Point2="354.432392518203,21.9965278280005"
-                    Point3="354.432392518203,25.9965278280005" />
-                  <mssgle:LineSegment
-                    End="354.432392518203,72.9444446281159" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package.PrecedenceConstraints[Constraint 11]"
-          TopLeft="961.881448838742,341.446297352594">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="-352.038874147773,126.207409527272"
-              Start="0,0"
-              End="-352.038874147773,118.707409527272">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,87.6601281218641" />
-                  <mssgle:CubicBezierSegment
-                    Point1="0,87.6601281218641"
-                    Point2="0,91.6601281218641"
-                    Point3="-4,91.6601281218641" />
-                  <mssgle:LineSegment
-                    End="-348.038874147773,91.6601281218641" />
-                  <mssgle:CubicBezierSegment
-                    Point1="-348.038874147773,91.6601281218641"
-                    Point2="-352.038874147773,91.6601281218641"
-                    Point3="-352.038874147773,95.6601281218641" />
-                  <mssgle:LineSegment
-                    End="-352.038874147773,118.707409527272" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -2626,65 +2626,6 @@
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
     design-time-name="Package\CuaHang_Jupiter\CuaHang_Jupiter_Stage">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <TaskHost
-    design-time-name="Package\Nuoc_Jupiter">
-    <LayoutInfo>
-      <GraphLayout
-        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
-        <NodeLayout
-          Size="140,41.6"
-          Id="Package\Nuoc_Jupiter\Nuoc_Jupiter"
-          TopLeft="321.666653884782,65.0000005165737" />
-        <NodeLayout
-          Size="172.8,41.6"
-          Id="Package\Nuoc_Jupiter\Nuoc_Jupiter_Stage"
-          TopLeft="309.999987681707,170.7333346902" />
-        <EdgeLayout
-          Id="Package\Nuoc_Jupiter.Paths[OLE DB Source Output]"
-          TopLeft="394.033320783245,106.600000516574">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="0,64.1333341736263"
-              Start="0,0"
-              End="0,56.6333341736263">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="0,56.6333341736263" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-      </GraphLayout>
-    </LayoutInfo>
-  </TaskHost>
-  <PipelineComponentMetadata
-    design-time-name="Package\Nuoc_Jupiter\Nuoc_Jupiter">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Nuoc_Jupiter\Nuoc_Jupiter_Stage">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -2803,6 +2744,65 @@
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
     design-time-name="Package\LoaiSanPham_Jupiter\LoaiSanPham_Jupiter_Stage">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <TaskHost
+    design-time-name="Package\Nuoc_Jupiter">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        <NodeLayout
+          Size="140,41.6"
+          Id="Package\Nuoc_Jupiter\Nuoc_Jupiter"
+          TopLeft="321.666653884782,65.0000005165737" />
+        <NodeLayout
+          Size="172.8,41.6"
+          Id="Package\Nuoc_Jupiter\Nuoc_Jupiter_Stage"
+          TopLeft="309.999987681707,170.7333346902" />
+        <EdgeLayout
+          Id="Package\Nuoc_Jupiter.Paths[OLE DB Source Output]"
+          TopLeft="394.033320783245,106.600000516574">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,64.1333341736263"
+              Start="0,0"
+              End="0,56.6333341736263">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,56.6333341736263" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\Nuoc_Jupiter\Nuoc_Jupiter">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Nuoc_Jupiter\Nuoc_Jupiter_Stage">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
