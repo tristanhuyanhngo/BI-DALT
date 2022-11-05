@@ -1,18 +1,18 @@
 ﻿<?xml version="1.0"?>
 <DTS:Executable xmlns:DTS="www.microsoft.com/SqlServer/Dts"
   DTS:refId="Package"
-  DTS:CreationDate="11/4/2022 8:39:18 PM"
+  DTS:CreationDate="11/5/2022 2:19:21 PM"
   DTS:CreationName="Microsoft.Package"
   DTS:CreatorComputerName="ASUS-VIVOBOOK-T"
   DTS:CreatorName="ASUS-VIVOBOOK-T\ASUS"
-  DTS:DTSID="{5D29F3D2-4B25-459B-9D05-10EE5F87CB61}"
+  DTS:DTSID="{05DE9466-2E48-4282-80BA-716EC2975BC3}"
   DTS:ExecutableType="Microsoft.Package"
   DTS:LastModifiedProductVersion="16.0.845.0"
   DTS:LocaleID="1033"
-  DTS:ObjectName="NDS_SanPham"
+  DTS:ObjectName="ETL Execute"
   DTS:PackageType="5"
   DTS:VersionBuild="1"
-  DTS:VersionGUID="{126F0E0F-CCDA-45EF-B69A-5AE5808936D6}">
+  DTS:VersionGUID="{D3913D05-6730-49D0-9EB7-8AD0308C2EBA}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:Variables />
