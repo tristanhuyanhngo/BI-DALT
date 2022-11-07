@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="Stage_Jupiter"
   DTS:PackageType="5"
-  DTS:VersionBuild="14"
-  DTS:VersionGUID="{FFEB6E8A-50C0-4CEA-9AF8-33C4E26E2FAD}">
+  DTS:VersionBuild="17"
+  DTS:VersionGUID="{D836E2A8-9E85-4AA9-879A-4F6E65E3FCCA}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -1658,7 +1658,7 @@
                 <property
                   dataType="System.String"
                   description="The mappings between the parameters in the SQL command and variables."
-                  name="ParameterMapping">"Parameter0:Input",{958DFA21-1F56-4953-B998-416C96AFCBD9};"Parameter1:Input",{19C4F2E2-51EA-4F38-BE50-6839171FA585};"Parameter2:Input",{958DFA21-1F56-4953-B998-416C96AFCBD9};"Parameter3:Input",{19C4F2E2-51EA-4F38-BE50-6839171FA585};</property>
+                  name="ParameterMapping">"Parameter0:Input",{83F69D83-C299-4997-9EEE-9161E206B1F9};"Parameter1:Input",{1CEFF6A4-23D6-45B0-947A-4374E483BF62};"Parameter2:Input",{83F69D83-C299-4997-9EEE-9161E206B1F9};"Parameter3:Input",{1CEFF6A4-23D6-45B0-947A-4374E483BF62};</property>
               </properties>
               <connections>
                 <connection
@@ -2476,17 +2476,17 @@
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,83.6481818566655" />
+                    End="0,83.6481818566653" />
                   <mssgle:CubicBezierSegment
-                    Point1="0,83.6481818566655"
-                    Point2="0,87.6481818566655"
-                    Point3="4,87.6481818566655" />
+                    Point1="0,83.6481818566653"
+                    Point2="0,87.6481818566653"
+                    Point3="4,87.6481818566653" />
                   <mssgle:LineSegment
-                    End="418.494425409597,87.6481818566655" />
+                    End="418.494425409597,87.6481818566653" />
                   <mssgle:CubicBezierSegment
-                    Point1="418.494425409597,87.6481818566655"
-                    Point2="422.494425409597,87.6481818566655"
-                    Point3="422.494425409597,91.6481818566655" />
+                    Point1="418.494425409597,87.6481818566653"
+                    Point2="422.494425409597,87.6481818566653"
+                    Point3="422.494425409597,91.6481818566653" />
                   <mssgle:LineSegment
                     End="422.494425409597,113.183335366912" />
                 </mssgle:SegmentCollection>
@@ -2582,15 +2582,15 @@
     design-time-name="Package\CuaHang_Jupiter">
     <LayoutInfo>
       <GraphLayout
-        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
-        <NodeLayout
-          Size="159.2,41.6"
-          Id="Package\CuaHang_Jupiter\CuaHang_Jupiter"
-          TopLeft="321.666653884782,65.0000005165737" />
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
           Size="192,41.6"
           Id="Package\CuaHang_Jupiter\CuaHang_Jupiter_Stage"
           TopLeft="309.999987681707,170.7333346902" />
+        <NodeLayout
+          Size="159.2,41.6"
+          Id="Package\CuaHang_Jupiter\CuaHang_Jupiter"
+          TopLeft="321.666653884782,65.0000005165737" />
         <EdgeLayout
           Id="Package\CuaHang_Jupiter.Paths[OLE DB Source Output]"
           TopLeft="403.633320783245,106.600000516574">
@@ -2610,7 +2610,9 @@
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="-15.45359375,23.5324873993132,30.9071875,9.568359375"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -2641,7 +2643,7 @@
     design-time-name="Package\LoaiCuaHang_Jupiter">
     <LayoutInfo>
       <GraphLayout
-        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
           Size="212,41.6"
           Id="Package\LoaiCuaHang_Jupiter\LoaiCuaHang_Jupiter_Stage"
@@ -2669,7 +2671,9 @@
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -2700,15 +2704,15 @@
     design-time-name="Package\LoaiSanPham_Jupiter">
     <LayoutInfo>
       <GraphLayout
-        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
-        <NodeLayout
-          Size="180.8,41.6"
-          Id="Package\LoaiSanPham_Jupiter\LoaiSanPham_Jupiter"
-          TopLeft="321.666653884782,65.0000005165737" />
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
           Size="213.6,41.6"
           Id="Package\LoaiSanPham_Jupiter\LoaiSanPham_Jupiter_Stage"
           TopLeft="309.999987681707,170.7333346902" />
+        <NodeLayout
+          Size="180.8,41.6"
+          Id="Package\LoaiSanPham_Jupiter\LoaiSanPham_Jupiter"
+          TopLeft="321.666653884782,65.0000005165737" />
         <EdgeLayout
           Id="Package\LoaiSanPham_Jupiter.Paths[OLE DB Source Output]"
           TopLeft="414.433320783245,106.600000516574">
@@ -2728,7 +2732,9 @@
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -2759,15 +2765,15 @@
     design-time-name="Package\Nuoc_Jupiter">
     <LayoutInfo>
       <GraphLayout
-        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
-        <NodeLayout
-          Size="140,41.6"
-          Id="Package\Nuoc_Jupiter\Nuoc_Jupiter"
-          TopLeft="321.666653884782,65.0000005165737" />
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
           Size="172.8,41.6"
           Id="Package\Nuoc_Jupiter\Nuoc_Jupiter_Stage"
           TopLeft="309.999987681707,170.7333346902" />
+        <NodeLayout
+          Size="140,41.6"
+          Id="Package\Nuoc_Jupiter\Nuoc_Jupiter"
+          TopLeft="321.666653884782,65.0000005165737" />
         <EdgeLayout
           Id="Package\Nuoc_Jupiter.Paths[OLE DB Source Output]"
           TopLeft="394.033320783245,106.600000516574">
@@ -2787,7 +2793,9 @@
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -2818,15 +2826,15 @@
     design-time-name="Package\SanPham_Jupiter">
     <LayoutInfo>
       <GraphLayout
-        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
-        <NodeLayout
-          Size="160.8,41.6"
-          Id="Package\SanPham_Jupiter\SanPham_Jupiter"
-          TopLeft="321.666653884782,65.0000005165737" />
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
         <NodeLayout
           Size="193.6,41.6"
           Id="Package\SanPham_Jupiter\SanPham_Jupiter_Stage"
           TopLeft="309.999987681707,170.7333346902" />
+        <NodeLayout
+          Size="160.8,41.6"
+          Id="Package\SanPham_Jupiter\SanPham_Jupiter"
+          TopLeft="321.666653884782,65.0000005165737" />
         <EdgeLayout
           Id="Package\SanPham_Jupiter.Paths[OLE DB Source Output]"
           TopLeft="404.433320783245,106.600000516574">
@@ -2846,7 +2854,9 @@
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <EdgeLabelCollection />
+            <mssgm:EdgeLabel
+              BoundingBox="0,0,0,0"
+              RelativePosition="Any" />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>

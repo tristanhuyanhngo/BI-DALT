@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="Stage_Webtower9"
   DTS:PackageType="5"
-  DTS:VersionBuild="6"
-  DTS:VersionGUID="{6E478092-B959-4F4F-840E-C9BD468DDD94}">
+  DTS:VersionBuild="8"
+  DTS:VersionGUID="{E0393B18-0171-4CD1-A4CA-2FEFD82A416B}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -25,7 +25,7 @@
         <DTS:ConnectionManager
           DTS:ConnectRetryCount="1"
           DTS:ConnectRetryInterval="5"
-          DTS:ConnectionString="Data Source=ASUS-VIVOBOOK-T\MSSQLSERVER2019;Initial Catalog=METADATA;Provider=SQLNCLI11.1;Integrated Security=SSPI;Application Name=SSIS-Package1-{CB8626B1-35E8-4D4D-BB5F-AF135A360276}ASUS-VIVOBOOK-T\MSSQLSERVER2019.METADATA;Auto Translate=False;" />
+          DTS:ConnectionString="Data Source=ASUS-VIVOBOOK-T\MSSQLSERVER2019;Initial Catalog=METADATA;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;Application Name=SSIS-Package1-{CB8626B1-35E8-4D4D-BB5F-AF135A360276}ASUS-VIVOBOOK-T\MSSQLSERVER2019.METADATA;" />
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
@@ -1900,13 +1900,13 @@
       <GraphLayout
         Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
-          Size="194.4,41.6"
-          Id="Package\KhachHang_WebTower9\KhachHang_WebTower9"
-          TopLeft="321.666653884782,65.0000005165737" />
-        <NodeLayout
           Size="227.2,41.6"
           Id="Package\KhachHang_WebTower9\KhachHang_WebTower9_Stage"
           TopLeft="309.999987681707,170.7333346902" />
+        <NodeLayout
+          Size="194.4,41.6"
+          Id="Package\KhachHang_WebTower9\KhachHang_WebTower9"
+          TopLeft="321.666653884782,65.0000005165737" />
         <EdgeLayout
           Id="Package\KhachHang_WebTower9.Paths[OLE DB Source Output]"
           TopLeft="421.233320783244,106.600000516574">

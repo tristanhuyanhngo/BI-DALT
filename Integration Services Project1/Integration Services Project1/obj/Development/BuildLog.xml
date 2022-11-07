@@ -2,7 +2,7 @@
 <BuildLog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <ProjectInfo>
     <Name>ABC Entertainment</Name>
-    <LastWriteTime>2022-11-05T09:24:48.8855645Z</LastWriteTime>
+    <LastWriteTime>2022-11-07T05:38:22.3818223Z</LastWriteTime>
     <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
   </ProjectInfo>
   <LastBuildInfos>
@@ -13,22 +13,12 @@
     </ProjectBuildItemInfo>
     <ProjectBuildItemInfo>
       <Name>Stage_Jupiter.dtsx</Name>
-      <LastWriteTime>2022-11-04T08:46:48.0686385Z</LastWriteTime>
+      <LastWriteTime>2022-11-07T06:20:28.1173597Z</LastWriteTime>
       <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
     </ProjectBuildItemInfo>
     <ProjectBuildItemInfo>
       <Name>Stage_Webtower9.dtsx</Name>
-      <LastWriteTime>2022-11-04T08:46:44.8166433Z</LastWriteTime>
-      <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
-    </ProjectBuildItemInfo>
-    <ProjectBuildItemInfo>
-      <Name>DDS_CuaHang.dtsx</Name>
-      <LastWriteTime>2022-11-05T07:10:26.3054331Z</LastWriteTime>
-      <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
-    </ProjectBuildItemInfo>
-    <ProjectBuildItemInfo>
-      <Name>DDS_KhachHang.dtsx</Name>
-      <LastWriteTime>2022-11-05T07:20:03.6988622Z</LastWriteTime>
+      <LastWriteTime>2022-11-07T03:12:16.4195796Z</LastWriteTime>
       <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
     </ProjectBuildItemInfo>
     <ProjectBuildItemInfo>
@@ -38,7 +28,7 @@
     </ProjectBuildItemInfo>
     <ProjectBuildItemInfo>
       <Name>NDS_CuaHang_Jupiter.dtsx</Name>
-      <LastWriteTime>2022-11-05T09:24:29.7425833Z</LastWriteTime>
+      <LastWriteTime>2022-11-07T06:42:46.1124479Z</LastWriteTime>
       <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
     </ProjectBuildItemInfo>
     <ProjectBuildItemInfo>
@@ -62,8 +52,23 @@
       <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
     </ProjectBuildItemInfo>
     <ProjectBuildItemInfo>
-      <Name>Execute Package.dtsx</Name>
-      <LastWriteTime>2022-11-05T07:20:00.8045721Z</LastWriteTime>
+      <Name>ETL Execute.dtsx</Name>
+      <LastWriteTime>2022-11-07T06:42:42.2279906Z</LastWriteTime>
+      <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
+    </ProjectBuildItemInfo>
+    <ProjectBuildItemInfo>
+      <Name>DDS_CuaHang.dtsx</Name>
+      <LastWriteTime>2022-11-07T06:42:47.7388909Z</LastWriteTime>
+      <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
+    </ProjectBuildItemInfo>
+    <ProjectBuildItemInfo>
+      <Name>DDS_DoanhThu.dtsx</Name>
+      <LastWriteTime>2022-11-06T09:44:32.3306075Z</LastWriteTime>
+      <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
+    </ProjectBuildItemInfo>
+    <ProjectBuildItemInfo>
+      <Name>DDS_KhachHang.dtsx</Name>
+      <LastWriteTime>2022-11-06T09:44:56.8470771Z</LastWriteTime>
       <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
     </ProjectBuildItemInfo>
   </LastBuildInfos>
